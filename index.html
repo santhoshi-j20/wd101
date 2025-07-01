@@ -1,12 +1,73 @@
-<html>
-  <head>
-    Registration form
-  </head>
-  <body>
-    <h1>WD101 Registration Form</h1>
-    <p>
-      Here is where i have kept logic of my Registration Form.
-    </p>
-    
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Web Development Page</title>
+  <style>
+    /* === Step 2: CSS Styling === */
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      margin: 40px;
+      color: #333;
+    }
+
+    h1 {
+      color: #007acc;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 8px;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- === Step 1: HTML Structure === -->
+
+  <h1>Welcome to My First Webpage</h1>
+  <p>This page was built using HTML, styled with CSS, and made interactive using JavaScript.</p>
+
+  <img src="/img/pic/.jpg" alt="Sample Image">
+
+  <p>Develop more at <a href="https://developer.mozilla.org/" target="_blank">JOY developer DOCS</a>.</p>
+
+  <button onclick="showMessage()">Click Me</button>
+
+  <!-- === Step 3: JavaScript for Interactivity === -->
+  <script>
+    function showMessage() {
+      alert("Hello! You clicked the button.");
+    }
+  </script>
+
+</body>
 </html>
